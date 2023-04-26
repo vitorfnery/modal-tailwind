@@ -11,7 +11,7 @@ function App() {
       </button>
       <Modal open={open} onClose={() => setOpen(false)}>
         <Trash size={56} className="mx-auto text-red-500" />
-        <div className="mx-auto my-4 w-48">
+        <div className="mx-auto my-4 w-48 flex flex-col items-center justify-center">
           <h3 className="text-lg font-black text-gray-800">Confirm Delete</h3>
           <p className="text-sm text-gray-500">
             Are you sure you want to delete this item?
